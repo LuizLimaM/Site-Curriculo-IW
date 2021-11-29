@@ -1,14 +1,23 @@
 body{
-background-color: 	#fcf9f2;
+    background-color:	#1F1A1B;
 }
 
-.fundonav{
-background-color: 	#fcf9f2;
+.cor_fundo{
+    background-color: 	#1b131f;
 }
 
 .corcarrosel{
     color: blueviolet;
 }
+
+p, a,span{
+    color: #f7e0bd;
+}
+
+h1,h2,h5{
+    color:#f8e9d3
+}
+
 
 .dropdown-menu {display: block;visibility: hidden;opacity:0;transform: translateY(50px);transition:.5s ease all;}
 .dropdown-menu.show {display: block;visibility: visible;opacity:1;transform: translateY(0px);transition:.5s ease all;}
