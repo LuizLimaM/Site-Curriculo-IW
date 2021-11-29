@@ -11,13 +11,14 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.svg">
 
 
     <title>Currículo Virtual</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid cor_fundo">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light cor_fundo">
+      <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="img/logo.svg" alt="" width="55px" height="55px">
         </a>
@@ -27,26 +28,26 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Início</a>
+              <a class="nav-link active cornav" aria-current="page" href="#">Início</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sobre</a>
+              <a class="nav-link cornav" href="#">Sobre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projetos</a>
+              <a class="nav-link cornav" href="#">Projetos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Experiências</a>
+              <a class="nav-link cornav" href="#">Experiências</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Hobbies</a>
+              <a class="nav-link cornav" href="#">Hobbies</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle cornav" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Perfis
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Github</a></li>
+                <li><a class="dropdown-item" href="https://github.com/LuizLimaM">Github</a></li>
                 <li><a class="dropdown-item" href="#">LinkedIn</a></li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
@@ -64,21 +65,21 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="img/carrosel/curriculo.png" class="d-block w-100">
+          <img src="img/carrosel/1.jpg" class="d-block w-100">
           <div class="carousel-caption d-none d-md-block">
             <h5>Currículo Luiz Lima</h5>
             <p>Some representative placeholder content for the first slide.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="img/carrosel/competenciastecnicas.png" class="d-block w-100">
+          <img src="img/carrosel/2.jpg" class="d-block w-100">
           <div class="carousel-caption d-none d-md-block">
             <h5>Competências Técnicas</h5>
             <p>Some representative placeholder content for the second slide.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="img/carrosel/socioemocionais.png" class="d-block w-100">
+          <img src="img/carrosel/3.jpg" class="d-block w-100">
           <div class="carousel-caption d-none d-md-block">
             <h5>Competências Socioemocionais</h5>
             <p>Some representative placeholder content for the third slide.</p>
@@ -101,12 +102,12 @@
           <h1 class="text-center">Sobre</h1>
         </div>
         <div class="row">
-          <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nam quidem saepe soluta reprehenderit sunt dolorum, ipsa vero recusandae amet suscipit optio nulla reiciendis nesciunt nisi voluptatibus ipsam nihil! Nesciunt.
-            </p>
+          <div class="col-md-6">
+            <p>Prazer, meu nome é Luiz.</p>
+            <p>Nesse site, mostrarei todos os meus conhecimentos relacionados a área de informática.</p>
           </div>
-          <div class="col-md-8">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos deleniti magni iusto. Mollitia pariatur iure unde perspiciatis atque asperiores aliquid, blanditiis eius maiores nihil porro cumque omnis a magni quidem! blanditiis eius maiores nihil porro cumque omnis a magni quidem! blanditiis eius maiores nihil porro cumque omnis a magni quidem!</p>
+          <div class="col-md-6">
+            <img src="img/sobre/etec.png" width="100%">
           </div>
         </div>
       </section>
@@ -137,13 +138,31 @@
         </div>
         <div class="row">
           <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident harum nostrum ut? Debitis rem velit nesciunt, nam natus nobis reiciendis odio excepturi consequatur mollitia, totam cupiditate necessitatibus. Error, voluptatum accusamus.</p>
+            <div class="card" style="width: 18rem; background-color: #1F1A1B;">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">HTML</h5>
+                <p class="card-text">Desenvolvi ao longo de um ano, os conhecimentos em HTML, e consigo sem muitas dificuldades estruturar um site.</p>
+              </div>
+            </div>
           </div>
           <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident harum nostrum ut? Debitis rem velit nesciunt, nam natus nobis reiciendis odio excepturi consequatur mollitia, totam cupiditate necessitatibus. Error, voluptatum accusamus.</p>
+            <div class="card" style="width: 18rem; background-color: #1F1A1B;">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">CSS</h5>
+                <p class="card-text">Assim como no HTML, estudando por um ano aprendi o necessário para estilizar o site.</p>
+              </div>
+            </div>
           </div>
           <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident harum nostrum ut? Debitis rem velit nesciunt, nam natus nobis reiciendis odio excepturi consequatur mollitia, totam cupiditate necessitatibus. Error, voluptatum accusamus.</p>
+            <div class="card" style="width: 18rem; background-color: #1F1A1B;">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">JavaScript</h5>
+                <p class="card-text">Recentemente comecei a me aprofundar nessa linguagem de programação, já tendo um projeto que você pode acesasr aqui: <a href="#">🌹</a></p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
