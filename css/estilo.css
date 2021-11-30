@@ -4,6 +4,7 @@ body{
 
 .cor_fundo{
     background-color: 	#1b131f;
+    
 }
 
 .cornav{
@@ -14,7 +15,10 @@ p, a,span{
     color: #f7e0bd;
     font-size: 1em;
 }
+.corfont{
 
+    color:#f8e9d3;
+}
 h1,h2,h5{
     color:#f8e9d3
 }
