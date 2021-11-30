@@ -1,0 +1,16 @@
+var conteudo = document.getElementById('conteudo');
+var botao = document.getElementById('mostrar_mais');
+
+//Evento do Click do Botão...
+botao.onclick = function(){
+    if(conteudo.className == "open"){
+        //Encurtar Caixa...
+        conteudo.className = ""; //Mudar a classe da div "conteudo" para ""...
+        botao.innerHTML = "Mostrar Mais" //Mudar o texto do botão para "Mostrar Mais"...
+    }
+    else{
+        //Expandir Caixa
+        conteudo.className = "open"; //Mudar a classe da div "conteudo" para "open"...
+        botao.innerHtml = "Mostrar Menos"; //Mudar o texto do botão para "Mostrar Menos".
+    }
+};
