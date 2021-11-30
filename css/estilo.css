@@ -24,11 +24,48 @@ h1,h2,h5{
     border: none;
 }
 
-.btn-primary:hover,.btn-primary:active, .btn-primary:visited {
-    background-color: #4b3942;
-    border: none;
+
+#conteudo{
+    width: 400px;
+    background: #2e2728;
+    border-radius: 15px;
+    padding: 20px;
+    padding-top: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #f7e0bd;
+    margin: 0 auto;
+    max-height: 30px;
+    overflow: hidden;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
 }
 
+#conteudo.open{
+    max-height: 1000px;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+#mostrar_mais{
+    background: #4e3b45;
+    color: #f7e0bd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    width: 125px;
+    font-size: 18px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto;
+    cursor: pointer;
+    border-radius: 30px;
+}
 
 
 .dropdown-menu {display: block;visibility: hidden;opacity:0;transform: translateY(50px);transition:.5s ease all;}
