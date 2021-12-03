@@ -7,25 +7,13 @@ body{
     
 }
 
-.cornav{
-    font-size: 1em;
-}
-
 p, a,span{
     color: #f7e0bd;
     font-size: 1em;
 }
-.corfont{
 
-    color:#f8e9d3;
-}
 h1,h2,h5{
     color:#f8e9d3
-}
-
-.btn-primary{
-    background-color: #5d4652;
-    border: none;
 }
 
 
