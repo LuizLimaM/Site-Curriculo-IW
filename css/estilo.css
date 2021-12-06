@@ -34,9 +34,6 @@ body{
     
 }
 
-.btn btn-primary{
-    background-color: #815f96;
-}
 
 p, span{
     color: #f7e0bd;
@@ -112,6 +109,20 @@ h1,h2,h5{
 
 .carousel p{
     font-size: 1.3em;
+}
+
+.footer{
+    background-color: #1b131f;
+    padding: 2%;
+    font-weight: bolder;
+}
+
+.footer a{
+    color: #f8e9d3;
+}
+
+.footer a:hover,:active{
+    color: #f7e0bd;
 }
 
 
