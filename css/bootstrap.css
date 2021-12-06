@@ -3543,9 +3543,9 @@ textarea.form-control-lg {
   color: #212529;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  background-color: #1b131f;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  border: 2px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
 }
 .dropdown-menu[data-bs-popper] {
@@ -3788,7 +3788,7 @@ textarea.form-control-lg {
 .dropdown-menu-dark {
   color: #dee2e6;
   background-color: #343a40;
-  border-color: rgba(0, 0, 0, 0.15);
+
 }
 .dropdown-menu-dark .dropdown-item {
   color: #dee2e6;
@@ -3804,9 +3804,7 @@ textarea.form-control-lg {
 .dropdown-menu-dark .dropdown-item.disabled, .dropdown-menu-dark .dropdown-item:disabled {
   color: #adb5bd;
 }
-.dropdown-menu-dark .dropdown-divider {
-  border-color: rgba(0, 0, 0, 0.15);
-}
+
 .dropdown-menu-dark .dropdown-item-text {
   color: #dee2e6;
 }
