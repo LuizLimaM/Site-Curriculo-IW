@@ -1,3 +1,4 @@
+/* CSS da Scrollbar*/
 html{
     scroll-behavior: smooth;
 }
@@ -29,12 +30,13 @@ body{
     background-attachment: fixed;
 }
 
+/* Fundo da Navbar*/
 .cor_fundo{
     background-color: 	#1b131f;
     
 }
 
-
+/*CSS Básico*/
 p, span{
     color: #f7e0bd;
     font-size: 1em;
@@ -63,7 +65,7 @@ h1,h2,h5{
     padding-bottom: 5%;
 }
 
-
+/* Função Mostrar Mais*/
 #conteudo{
     width: 400px;
     background: #2e2728;
@@ -107,14 +109,41 @@ h1,h2,h5{
     border-radius: 30px;
 }
 
+/*Zoom de Imagem */
+.imgtr{
+    transition: transform .4s;
+    margin: 0 auto;
+}
+  
+.imgtr:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+
+/*Efeito de Esmaecer*/
+.imgesm{
+    transition: opacity 0.5s ease-in;
+    opacity: 0.6;
+}
+
+.imgesm:hover{
+    opacity: 1;
+}
+
+
+
+/* Texto do Carrossel*/
 .carousel p{
     font-size: 1.3em;
 }
 
+/*Rodapé */
 .footer{
     background-color: #1b131f;
     padding: 2%;
     font-weight: bolder;
+    margin-top: 3%;
 }
 
 .footer a{
@@ -125,6 +154,7 @@ h1,h2,h5{
     color: #f7e0bd;
 }
 
+/* Espaçamento do Card*/
 .card{
     margin-top: 3%;
     margin-bottom: 3%;
@@ -132,6 +162,6 @@ h1,h2,h5{
     padding-bottom: 3%;
 }
 
-
+/* Animação do Navbar Dropdown Link*/
 .dropdown-menu {display: block;visibility: hidden;opacity:0;transform: translateY(50px);transition:.5s ease all;}
 .dropdown-menu.show {display: block;visibility: visible;opacity:1;transform: translateY(0px);transition:.5s ease all;}
